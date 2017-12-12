@@ -1,0 +1,9 @@
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper{
+	width: 1000px;
+	height: 800px;
+	background-color: #0;
+}

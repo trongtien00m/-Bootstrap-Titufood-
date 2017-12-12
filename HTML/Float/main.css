@@ -1,0 +1,15 @@
+.contain{
+	border: 1px solid red;
+	width: 1000px;
+	margin: 0 auto;
+}
+.float-left{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 15px;
+	background: #cccccc;
+}
+.clear{
+	clear: both;
+}
