@@ -1,0 +1,38 @@
+@media (min-width:768px) { 
+	.navbar > .container {
+	    text-align: center;
+	}
+	.navbar-header,.navbar-brand,.navbar .navbar-nav,.navbar .navbar-nav > li {
+	    float: none;
+	    display: inline-block;
+	}
+	.collapse.navbar-collapse {
+	    float: none;
+	    display: inline-block!important;
+	    width: auto;
+	    clear: none;
+	}
+}
+
+.my-nav{
+	font-family: Roboto;
+	font-weight: bold;
+	border-bottom: 1px double black;
+}
+
+.navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+}
+
+li.dropdown:hover > .dropdown-menu{
+	display: block;
+}
+
+
+.navbar .nav > li > a:hover {
+    color: #ffffff;
+    background-color: #cccccc;
+}
